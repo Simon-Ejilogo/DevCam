@@ -63,6 +63,8 @@ const BootcampSchema = new mongoose.Schema({
           'UI/UX',
           'Data Science',
           'Business',
+          'DevOps',
+          'Cloud Engineer',
           'Other'
         ]
       },
@@ -98,4 +100,4 @@ const BootcampSchema = new mongoose.Schema({
       }
 })
 
-module.exports = mongoose.model('Bootcamp', Bootcampschema)
+module.exports = mongoose.model('Bootcamp', BootcampSchema)
